@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid gray;
+}
+li:hover {
+  background-color: #ee9ca7;
+  cursor: pointer;
+}
+li .isinger {
+  color: gray;
+  font-size: 14px;
+}
+li:nth-of-type(1) .itu {
+  background-image: url(../msAndig/明天会更好.jpg);
+}
+li:nth-of-type(2) .itu {
+  background-image: url(../msAndig/时间煮雨.jpg);
+}
+li:nth-of-type(3) .itu {
+  background-image: url(../msAndig/我的未来不是梦.jpg);
+}
+hr {
+  margin-top: 4px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  background: linear-gradient(45deg, skyblue, #fff);
+  margin: 0;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#2193b0, #6dd5ed);
+  clip-path: circle(30% at right 70%);
+  opacity: 0.8;
+  z-index: -1;
+}
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#ee9ca7, #ffdde1);
+  clip-path: circle(20% at 10% 10%);
+  opacity: 0.8;
+  z-index: -1;
+}
+div.box div.card {
+  width: 250px;
+  height: 400px;
+  box-shadow: 0 0 6px gray inset;
+  padding: 10px 0;
+  border-radius: 20px;
+  background-color: rgba(219, 234, 233, 0.9);
+  /* background-color: #fff; */
+  transform: scale(1.2);
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+div.box div.card div.bac {
+  position: absolute;
+  width: 100%;
+  transform: rotateY(-180deg);
+  backface-visibility: hidden;
+}
+div.box div.card div.bac div.top {
+  position: relative;
+  text-align: center;
+}
+div.box div.card div.bac div.top span.fa.fa-arrow-left.fhui {
+  position: absolute;
+  left: 12px;
+  top: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+div.box div.card div.bac div.top span.fa.fa-arrow-left.fhui:hover {
+  color: pink;
+}
+div.box div.card div.bac ul.musics li div.itu {
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  border-radius: 100%;
+  margin-right: 16px;
+  object-fit: cover;
+}
+div.box div.card div.fro {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+}
+div.box div.card div.fro div.topf {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+div.box div.card div.fro div.topf span.fa.fa-bars.lis {
+  position: absolute;
+  right: 12px;
+  top: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+div.box div.card div.fro div.topf span.fa.fa-bars.lis:hover {
+  color: pink;
+}
+div.box div.card div.fro div.tu {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 2px solid gray;
+  box-shadow: 0 0 6px 2px orange;
+  margin: 20px auto;
+}
+div.box div.card div.fro div.tu img.mutu {
+  animation: cir 10s linear infinite;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@keyframes cir {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+div.box div.card div.fro p.singer {
+  color: gray;
+  font-size: 14px;
+}
+div.box div.card div.fro div.kz {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  justify-content: space-evenly;
+  padding: 0 10px;
+  margin: 20px 0 16px;
+}
+div.box div.card div.fro div.kz div {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+div.box div.card div.fro div.kz div:hover {
+  transform: scale(1.2);
+  color: pink;
+}
+div.box div.card div.fro div.kz .stop .zt {
+  display: none;
+}
+div.box div.card div.fro div.showtime {
+  padding: 0 20px;
+}
+div.box div.card div.fro div.showtime div.time {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+div.box div.card div.fro div.showtime div.time p {
+  margin: 16px 0 0 0;
+}
+div.box div.card div.fro div.showtime input.jd {
+  appearance: none !important;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  height: 5px;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+}
+div.box div.card div.fro div.showtime input.jd::-webkit-slider-thumb {
+  appearance: none !important;
+  background: red;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  box-shadow: -100vw 0 0 100vw #a0c8fa;
+}
+div.box div.card p.nelis {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 24px;
+  margin: auto;
+  width: 120px;
+  height: 20px;
+  box-shadow: 0 0 3px red;
+  font-size: 14px;
+  border-radius: 20px;
+  color: red;
+  user-select: none;
+  text-align: center;
+}
+/*# sourceMappingURL=./style.css.map */

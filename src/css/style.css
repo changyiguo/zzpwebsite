@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.top {
+  text-align: center;
+  padding: 10vw 8vw;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.top .pic {
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+  border: 2px solid #858484;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.top .pic img {
+  width: 100%;
+}
+.top h3 {
+  color: #2c4337;
+}
+.works .one {
+  margin: 40px 100px;
+  text-align: center;
+}
+.works .one ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.works .one ul li {
+  width: 20vw;
+  margin: 20px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+.works .one ul li a {
+  display: block;
+  text-decoration: none;
+}
+.works .one ul li a.pic {
+  border: 2px solid #00bbff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.works .one ul li a.pic:hover img {
+  transform: scale(1.2);
+}
+.works .one ul li a.pic img {
+  transition: all 1s;
+  width: 100%;
+  display: block;
+}
+.works .two {
+  text-align: center;
+  padding: 0 8vw;
+}
+.works .two .part {
+  margin: 20px 0;
+}
+.works .two .part ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.works .two .part ul li {
+  flex-shrink: 0;
+  width: 12vw;
+  margin: 20px;
+}
+.works .two .part ul li img {
+  width: 100%;
+}
+/*# sourceMappingURL=./style.css.map */

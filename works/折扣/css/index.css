@@ -1,0 +1,339 @@
+.top {
+  left: 12%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.top .navbar {
+  border: none;
+}
+.top .navbar a {
+  color: #000 !important;
+}
+.top .navbar a:hover {
+  background-color: transparent;
+  color: #a4006a !important;
+}
+.top .navbar .leftd {
+  margin-left: 30px;
+}
+.top .navbar .navbar-right li {
+  margin: 0 14px;
+}
+.top .navbar .btnpp {
+  margin-top: 10px;
+  width: 70px;
+  background-color: #fff;
+  color: #a4006a;
+  transition: all 0.5s;
+  border-radius: 20px;
+  border: 2px solid #a4006a;
+  cursor: pointer;
+}
+.top .navbar .btnpp:hover {
+  color: #fff;
+  background-color: #a4006a;
+}
+.search0 {
+  background-color: #f9f9f9;
+  padding: 120px 0 60px 0;
+}
+.search0 .boxsm h2 {
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.search0 .boxsm .bor {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 60px;
+  position: relative;
+}
+.search0 .boxsm .bor .tbd {
+  position: absolute;
+  left: 60%;
+  z-index: 100;
+  top: 25%;
+}
+@media screen and (max-width: 1280px) {
+  .search0 .boxsm .bor .tbd {
+    left: 82%;
+    top: 10%;
+  }
+}
+.search0 .boxsm .bor .tbd ul {
+  display: none;
+  padding-top: 20px;
+  width: 100px;
+  text-align: center;
+  background-color: white;
+}
+.search0 .boxsm .bor .tbd ul li {
+  padding: 6px 0;
+}
+.search0 .boxsm .bor .tbd ul li:hover {
+  color: #a4006a;
+}
+.search0 .boxsm .bor input {
+  width: 70%;
+  border-radius: 23px;
+  border: 2px solid purple;
+}
+.search0 .boxsm .bor .ppbtn {
+  display: inline-block;
+  width: 20%;
+  margin-left: 1%;
+  height: 46px;
+  border-radius: 23px;
+  border: none;
+  background-color: #a4006a;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.search0 .boxsm .bor .ppbtn:hover {
+  color: #a4006a;
+  box-shadow: 0 0 3px #a4006a inset;
+  background-color: #fff;
+}
+@media screen and (max-width: 1280px) {
+  .search0 .boxsm .bor input {
+    width: 100%;
+  }
+  .search0 .boxsm .bor .ppbtn {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+.features {
+  margin: 75px;
+}
+.features .card {
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px;
+  margin-bottom: 15px;
+}
+.features .card:hover > div::after {
+  opacity: 0.9;
+}
+.features .card > div {
+  position: relative;
+}
+.features .card > div::after {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: linear-gradient(transparent, #000000);
+  height: 50%;
+  width: 100%;
+  content: "";
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out 0s;
+}
+.features .card img {
+  width: 100%;
+}
+.features .card h6 {
+  line-height: 1.5em;
+  padding: 15px;
+  margin: 0;
+  font-size: 16px;
+}
+.coupons {
+  background-color: #f9f9f9;
+}
+.coupons .container h2 {
+  margin: 40px 0;
+}
+.coupons .container .buttpp {
+  background-color: #a4006a;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 24px;
+  transition: all 0.5s;
+  margin: 45px 0;
+  cursor: pointer;
+}
+.coupons .container .buttpp:hover {
+  color: #a4006a;
+  box-shadow: 0 0 3px #a4006a inset;
+  background-color: #fff;
+}
+.coupons .container .list .btnpp {
+  background-color: #a4006a;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 2px 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.coupons .container .list .btnpp:hover {
+  color: #a4006a;
+  box-shadow: 0 0 3px #a4006a inset;
+  background-color: #fff;
+}
+.coupons .container .list .card {
+  border: 1px solid #e2e2e2;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+.coupons .container .list .card:hover {
+  border: 1px solid #a4006a;
+}
+.coupons .container .list .card .liwhite {
+  padding-top: 20px;
+  background-color: white;
+}
+.coupons .container .list .card .liwhite .image {
+  width: 200px;
+}
+.coupons .container .list .card .liwhite .image img {
+  width: 100%;
+}
+.coupons .container .list .card .ligray {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.coupons .container .list .card .ligray .row > div:nth-child(1) {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.coupons .container .list .card .ligray .row > div:nth-child(1):hover {
+  color: #a4006a;
+}
+.coupons .container .list .card .ligray .row > div:nth-child(2) {
+  position: relative;
+  left: -20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.coupons .container .list .card .ligray .row > div:nth-child(2):hover {
+  color: #a4006a;
+}
+.coupons .container .list .card .ligray .hidden-xs > i:nth-child(5) {
+  color: gray;
+}
+.best {
+  padding: 60px 0;
+}
+.best .container h2 {
+  margin: 45px 0;
+}
+.best .container .card {
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px;
+  margin-bottom: 15px;
+}
+.best .container .card .pic img {
+  width: 100%;
+}
+.best .container .card .resu {
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+.best .container .card .resu > span:nth-child(1) {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.best .container .card .resu > span:nth-child(1):hover {
+  color: #a4006a;
+}
+.best .container .card .resu > span:nth-child(2) {
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.best .container .card .resu > span:nth-child(2) > i:nth-child(5) {
+  color: gray;
+}
+.best .container .card .resu > span:nth-child(2):hover {
+  color: #a4006a;
+}
+.search1 {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+.search1 .boxsm h2 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.search1 .boxsm .bor {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 60px;
+}
+.search1 .boxsm .bor input {
+  width: 70%;
+  border-radius: 23px;
+  border: 2px solid purple;
+}
+.search1 .boxsm .bor .ppbtn {
+  display: inline-block;
+  width: 20%;
+  margin-left: 1%;
+  height: 46px;
+  border-radius: 23px;
+  border: none;
+  background-color: #a4006a;
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.search1 .boxsm .bor .ppbtn:hover {
+  color: #a4006a;
+  box-shadow: 0 0 3px #a4006a inset;
+  background-color: #fff;
+}
+@media screen and (max-width: 1280px) {
+  .search1 .boxsm .bor input {
+    width: 100%;
+  }
+  .search1 .boxsm .bor .ppbtn {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+footer .container {
+  padding: 60px 0;
+}
+footer .container .row .pic img {
+  width: 50%;
+}
+footer .container .row h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+footer .container .row .lis li {
+  color: gray;
+  cursor: pointer;
+  margin: 20px 0;
+}
+footer .container .row .lis li:hover {
+  color: #a4006a;
+}
+footer .container .row .lis li span {
+  display: inline-block;
+  width: 20px;
+}
+@media screen and (max-width: 768px) {
+  footer .container .row {
+    text-align: center;
+  }
+}
+footer .boxsu {
+  background-color: #f9f9f9;
+}
+footer .boxsu i {
+  color: #a4006a;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=./index.css.map */
