@@ -177,7 +177,7 @@ function accessSiblings(currentImg) {
     let siblings = Array.from(currentImg.parentNode.children);  
     siblings.forEach(sibling => {  
       if (sibling !== currentImg) { // 确保不打印自己  
-        console.log(sibling.tagName); // 打印兄弟元素的标签名  
+        // console.log(sibling.tagName); // 打印兄弟元素的标签名  
         sibling.parentNode.removeChild(sibling);  
       }  
     });  
